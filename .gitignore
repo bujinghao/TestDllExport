@@ -1,0 +1,146 @@
+# ============================================================
+# Visual Studio C++ 项目忽略配置
+# ============================================================
+
+# 编译输出目录
+x64/
+x86/
+Debug/
+Release/
+out/
+bin/
+obj/
+
+# Visual Studio 用户特定文件
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio 缓存/临时文件
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.log
+*.scc
+
+# Visual Studio 性能分析文件
+*.psess
+*.vsp
+*.vspx
+
+# 编译生成的文件
+*.dll
+*.exe
+*.lib
+*.pdb
+*.ilk
+*.obj
+*.tlog
+*.lastbuildstate
+*.unsuccessfulbuild
+*.idb
+*.ipch
+*.iobj
+*.ipdb
+*.pgc
+*.pgd
+
+# 预编译头缓存
+*.pch
+*.gch
+
+# 资源文件
+*.res
+*.rc
+*.rc2
+
+# 中间文件
+*.exp
+*.map
+*.manifest
+
+# NuGet 包
+packages/
+*.nupkg
+
+# ============================================================
+# Java 项目忽略配置 (可选)
+# ============================================================
+
+# Java 编译输出
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+
+# IDE 文件
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# ============================================================
+# 操作系统和编辑器忽略配置
+# ============================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# 编辑器
+*.swp
+*.swo
+*~
+.vscode/
+*.sublime-*
+
+# ============================================================
+# 其他忽略配置
+# ============================================================
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# 文档 (可选保留)
+# *.pdf
+# *.doc
+# *.docx
